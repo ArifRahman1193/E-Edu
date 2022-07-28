@@ -1,0 +1,8 @@
+.carousel-item button{
+    width: 120px;
+    height: 40px;
+    background-color: #289BDE;
+    color: white;
+    margin: 50px 0px;
+    border-radius: 5px;
+}
