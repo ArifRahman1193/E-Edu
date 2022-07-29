@@ -32,6 +32,6 @@ body{
 
   @media only screen and (max-width: 766px) {
     .trusted {
-      /* display: none; */
+      display: none;
     }
   }
