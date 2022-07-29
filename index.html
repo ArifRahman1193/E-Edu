@@ -1,214 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>E-Edu</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <!-- font awosome -->
-    <!-- <script src="https://kit.fontawesome.com/4efb0d1ba4.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header class="container">
-        <!-- Navigation Bar Start -->
-        <div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                  <a class="navbar-brand fs-2 fw-bolder" href="#">E-Edu</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" role="button" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Disabled</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </div>
-        <!-- Navigation Bar End -->
 
-        <!-- HeroSection Start -->
-        <div>
-            <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="false">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="fs-1">First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                      <button class="border border-0">Get Started</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                      <button class="border border-0">Get Started</button>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E-Edu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- font awosome -->
+  <!-- <script src="https://kit.fontawesome.com/4efb0d1ba4.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                      <button class="border border-0">Get Started</button>
+<body>
+  <header class="container">
+    <!-- Navigation Bar Start -->
+    <div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fs-2 fw-bolder" href="#">E-Edu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" aria-expanded="false">
+                  Dropdown
+                </a>
 
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              </div>
-        </div>
-        <!-- HeroSection End -->
-    </header>
-    <!-- main part start-->
-    <main>
-      <!-- courses start -->
-      <section>
-        <div class="text-center mb-5">
-          <h1 class="fw-bolder">Discover Our Popular <br/> Courses</h1>
-          <p>It is a long established fact that a reader will be<br/> distracted by the readable content of a page when looking at its layout.</p>
-        </div>
-        <!-- course gallery start-->
-    
-          <div class="container">
-           <div class="row g-4">
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img class="" src="images/course/course-1.png" alt="">
-                </div>
-                <div class="m-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img src="images/course/course-1.png" alt="">
-                </div>
-                <div class="ms-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img src="images/course/course-1.png" alt="">
-                </div>
-                <div class="ms-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img src="images/course/course-1.png" alt="">
-                </div>
-                <div class="ms-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img src="images/course/course-1.png" alt="">
-                </div>
-                <div class="ms-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="d-flex border border-3 rounded-4">
-                <div>
-                  <img src="images/course/course-1.png" alt="">
-                </div>
-                <div class="ms-2">
-                  <h5>Fundamental Of UI/UX Design
-                  </h5>
-                  <p>Some quick example text to build on the card title 
-                    and make up the bulk of the card.</p>
-                    <p>Price: 20$</p>
-                </div>
-              </div>
-           </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-       
-        <!-- course gallery end-->
-      </section>
-      <!-- courses end -->
-    </main>
-    <!-- main part end -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </nav>
+    </div>
+    <!-- Navigation Bar End -->
+
+    <!-- HeroSection Start -->
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1">First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="border border-0">Get Started</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              <button class="border border-0">Get Started</button>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button class="border border-0">Get Started</button>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!-- HeroSection End -->
+  </header>
+  <!-- main part start-->
+  <main>
+    <!-- courses start -->
+    <section>
+      <div class="text-center mb-5">
+        <h1 class="fw-bolder">Discover Our Popular <br /> Courses</h1>
+        <p>It is a long established fact that a reader will be<br /> distracted by the readable content of a page when
+          looking at its layout.</p>
+      </div>
+      <!-- course gallery start-->
+
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img class="" src="images/course/course-1.png" alt="">
+              </div>
+              <div class="m-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img src="images/course/course-1.png" alt="">
+              </div>
+              <div class="ms-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img src="images/course/course-1.png" alt="">
+              </div>
+              <div class="ms-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img src="images/course/course-1.png" alt="">
+              </div>
+              <div class="ms-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img src="images/course/course-1.png" alt="">
+              </div>
+              <div class="ms-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="d-flex border border-3 rounded-4">
+              <div>
+                <img src="images/course/course-1.png" alt="">
+              </div>
+              <div class="ms-2">
+                <h5>Fundamental Of UI/UX Design
+                </h5>
+                <p>Some quick example text to build on the card title
+                  and make up the bulk of the card.</p>
+                <p>Price: 20$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center mb-5 fs-4 mt-5 text-warning bg-dark">See All</p>
+      </div>
+
+      <!-- course gallery end-->
+    </section>
+    <!-- courses end -->
+
+    <!-- Question Part start -->
+    <section>
+      <div>
+        <div class="text-center">
+          <h1 class="">Frequently Asked Questions</h1>
+          <p>It is a long established fact that a reader will be distracted <br /> by the readable
+            content of a page when looking at its layout.</p>
+        </div>
+        <!-- Accord Start -->
+        <div class="container">
+          <div class="accordion m-5" id="accordionPanelsStayOpenExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Bootstrap VS Tailwind
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Bootstrap</strong> 1. Comes with responsive layouts, components, and utility classes. 2.Less
+                  flexible than Tailwind. 3.Larger file size than Tailwind due to its required files. 4.Critics say that
+                  websites built using Bootstrap look similar.<br />
+                  <strong>Tailwind</strong> 1. Comes with a lot more utility classes than Bootstrap. 2.Core does not
+                  have components or layouts classes. 3.More flexible than Bootstrap. 4.Critics say that using Tailwind
+                  CSS makes your code difficult to read.
+                  <code>Thanks</code>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Difference between Flexbox and Grid
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for
+                  layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout -
+                  rows, and columns at the same time.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  What is CSS box Model !!!
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  When laying out a document, the browser's rendering engine represents each element as a rectangular
+                  box according to the standard CSS basic box model. CSS determines the size, position, and properties
+                  (color, background, border size, etc.) of these boxes.
+
+                  Every box is composed of four parts (or areas), defined by their respective edges: the content edge,
+                  padding edge, border edge, and margin edge.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour">
+                  What is Semantic Tag??
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  The core characteristic of a semantic element is that it clearly communicated its meaning to both the
+                  developer and the browser. These elements clearly define its content.
+                  <br>
+                  The are several advantages of using semantics tags in HTML:
+
+                  1.The semantic HTML tags help the search engines and other user devices to determine the importance
+                  and
+                  context of web pages.
+                  2. The pages made with semantic elements are much easier to read.
+                  3. It has greater accessibility. It offers a better user experience.
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Accord End -->
+      </div>
+    </section>
+    <!-- Question Part end -->
+
+
+
+    <!-- Footer Start -->
+    <div class="b-example-divider"></div>
+
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Md Arifur Rahman, All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" />
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer End -->
+  </main>
+  <!-- main part end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
